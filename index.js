@@ -13,7 +13,7 @@ const app = express();
 
 // Enable CORS
 app.use(cors({
-  origin: "https://income-client-9lhp.vercel.app/",
+  origin: "https://income-client-9lhp.vercel.app",
   credentials: true,
 }));
 
